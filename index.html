@@ -1,0 +1,578 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FunAgain: an early 1983 VW T3, going electric by hand</title>
+<meta name="description" content="A build notebook for FunAgain, Vincent's early 1983 air-cooled VW T3: the DIY EV plan, drivetrain options, the systems the van needs, the measuring phase and what is still open. Information only.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#d7d7da">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22%3E%3Crect width=%2216%22 height=%2216%22 fill=%22%238ba4c3%22/%3E%3Crect width=%2216%22 height=%226%22 fill=%22%23f3ede3%22/%3E%3C/svg%3E">
+<link rel="preload" href="fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/plex-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="hero" id="top">
+  <div class="hero-inner">
+    <div>
+      <p class="eyebrow">A build notebook &middot; planning stage</p>
+      <h1>Fun<em>Again</em></h1>
+    </div>
+    <div>
+      <p class="lede">Vincent's early 1983 air-cooled VW T3, converted to electric by hand. What the van needs, what gets measured first, and what is still open.</p>
+      <dl class="facts">
+        <dt>Van</dt><dd>Early 1983 US Vanagon (T3). Air-cooled Type&nbsp;4 2.0, 091 4-speed manual, 2WD, coil-sprung semi-trailing-arm rear.</dd>
+        <dt>Where</dt><dd>New Mexico, no smog.</dd>
+        <dt>Status</dt><dd>Planning only. Nothing gets bought.</dd>
+      </dl>
+    </div>
+  </div>
+  <figure class="plate-hero">
+    <picture><source type="image/webp" srcset="img/front-3q-640.webp 640w, img/front-3q-1024.webp 1024w, img/front-3q-1440.webp 1440w, img/front-3q-1792.webp 1792w" sizes="100vw"><img src="img/front-3q-1440.jpg" srcset="img/front-3q-640.jpg 640w, img/front-3q-1024.jpg 1024w, img/front-3q-1440.jpg 1440w, img/front-3q-1792.jpg 1792w" sizes="100vw" width="1792" height="1008" alt="Concept render of FunAgain from the front three-quarter: a lowered wide-body VW T3 in pale blue with a cream roof, a smooth Tesla-style nose crossed by a thin full-width light bar, angular bolt-on wheel flares and dark multi-spoke wheels, standing on a reflective studio floor." fetchpriority="high" decoding="async"></picture>
+    <figcaption><b>Plate I</b>Concept render, front three-quarter. A Tesla-style nose with a full-width light bar, wide-body flares, two-tone pale blue under a cream roof. This is the look, not a photo of the van today.</figcaption>
+  </figure>
+</header>
+
+<nav class="secnav" aria-label="Sections">
+  <ol>
+    <li><a class="brand" href="#top">FunAgain</a></li>
+    <li><a href="#look"><span>01</span>The look</a></li>
+    <li><a href="#plan"><span>02</span>The plan</a></li>
+    <li><a href="#drivetrain"><span>03</span>Drivetrain</a></li>
+    <li><a href="#systems"><span>04</span>Systems</a></li>
+    <li><a href="#measure"><span>05</span>Measuring</a></li>
+    <li><a href="#sequence"><span>06</span>Build sequence</a></li>
+    <li><a href="#open"><span>07</span>Open questions</a></li>
+  </ol>
+</nav>
+
+<main id="main">
+
+<!-- 01 The look -->
+<section id="look" class="gallery" aria-labelledby="look-h">
+  <div class="gallery-title">
+    <h2 id="look-h">The look</h2>
+    <p>Four concept renders of the new body: wide-body T3, Tesla-style front, light bar, flares, a rear wing, pale blue with a cream roof.</p>
+  </div>
+  <figure class="wide">
+    <picture><source type="image/webp" srcset="img/side-640.webp 640w, img/side-1024.webp 1024w, img/side-1440.webp 1440w, img/side-1792.webp 1792w" sizes="(max-width: 90rem) calc(100vw - 2 * clamp(1.25rem, 4vw, 3.5rem)), 1400px"><img src="img/side-1440.jpg" srcset="img/side-640.jpg 640w, img/side-1024.jpg 1024w, img/side-1440.jpg 1440w, img/side-1792.jpg 1792w" sizes="(max-width: 90rem) calc(100vw - 2 * clamp(1.25rem, 4vw, 3.5rem)), 1400px" width="1792" height="1008" alt="Concept render of FunAgain in side profile: the long flat-sided T3 body in pale blue with a cream roof line, three side windows, angular flares over both wheels, a small ducktail wing at the rear edge of the roof, sitting very low over its wheels." loading="lazy" decoding="async"></picture>
+    <figcaption><b>Plate II</b>Side elevation. The T3's long glasshouse, flares front and rear, the wing at the roof's edge.</figcaption>
+  </figure>
+  <div class="row">
+    <figure>
+      <picture><source type="image/webp" srcset="img/rear-3q-640.webp 640w, img/rear-3q-1024.webp 1024w, img/rear-3q-1440.webp 1440w, img/rear-3q-1792.webp 1792w" sizes="(max-width: 640px) 100vw, 50vw"><img src="img/rear-3q-1440.jpg" srcset="img/rear-3q-640.jpg 640w, img/rear-3q-1024.jpg 1024w, img/rear-3q-1440.jpg 1440w, img/rear-3q-1792.jpg 1792w" sizes="(max-width: 640px) 100vw, 50vw" width="1792" height="1008" alt="Concept render of FunAgain from the rear three-quarter: a raised rear wing above the tailgate, smoked red tail lights, flared rear arch and a black lower diffuser with four round tips set into it." loading="lazy" decoding="async"></picture>
+      <figcaption><b>Plate III</b>Rear three-quarter. Wing, diffuser, flared arches. The quad tips are a styling cue only; an EV has no exhaust.</figcaption>
+    </figure>
+    <figure>
+      <picture><source type="image/webp" srcset="img/top-640.webp 640w, img/top-1024.webp 1024w, img/top-1440.webp 1440w, img/top-1792.webp 1792w" sizes="(max-width: 640px) 100vw, 50vw"><img src="img/top-1440.jpg" srcset="img/top-640.jpg 640w, img/top-1024.jpg 1024w, img/top-1440.jpg 1440w, img/top-1792.jpg 1792w" sizes="(max-width: 640px) 100vw, 50vw" width="1792" height="1008" alt="Concept render of FunAgain seen from above at an angle: the broad cream roof panel running the length of the van, the pale blue body below it, the light bar wrapping the nose and the wing at the back." loading="lazy" decoding="async"></picture>
+      <figcaption><b>Plate IV</b>From above. The cream roof reads as one long panel; the light bar wraps the nose.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- 02 The plan -->
+<section id="plan" aria-labelledby="plan-h">
+  <div class="sec-head">
+    <p class="sec-num">Section<span>02</span></p>
+    <div>
+      <h2 id="plan-h">The plan</h2>
+    </div>
+    <p class="intro">Electric first, done by hand, with a gas engine swap kept in reserve. Everything here is planning: products and specs come from sourced research, and anything nobody could source is shown as open.</p>
+  </div>
+
+  <ol class="pillars cols">
+    <li>
+      <span class="k">Main plan</span>
+      <h3>EV first</h3>
+      <p>An electric conversion is the main plan, decided on 2026-10-01. The planning doc builds it around a Nissan Leaf drive unit; which drive unit goes in is now being confirmed (see <a href="#drivetrain">Drivetrain</a>).</p>
+    </li>
+    <li>
+      <span class="k">How</span>
+      <h3>DIY</h3>
+      <p>The mechanic measures the van. Caliper checks the numbers. Clay builds the CAD model. Volt (Embedded) owns the VCU and inverter firmware.</p>
+    </li>
+    <li>
+      <span class="k">Backup</span>
+      <h3>Subaru EJ swap</h3>
+      <p>If the EV path doesn't work out, the fallback is a gas Subaru EJ engine swap, which has its own parts schedule.</p>
+    </li>
+  </ol>
+  <p class="note">The QS138 90H hub motor is not for FunAgain. House rules for the research: no invented part numbers, every product, kit or spec has a source, and anything worked out by hand is labelled <span class="tag tag-calc">estimate</span> or <span class="tag tag-calc">calc</span>.</p>
+
+  <div class="subsec">
+    <div class="tablewrap" role="region" aria-labelledby="vanfacts-cap" tabindex="0">
+      <table>
+        <caption id="vanfacts-cap">The van as it stands</caption>
+        <thead><tr><th scope="col">Item</th><th scope="col">What the sources say</th><th scope="col" class="src">Source</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Curb weight / GVWR</th><td><span class="num">3,270 lb</span>; GVWR in the 5,001&ndash;6,000 lb class.</td><td class="src"><a href="https://www.carweek.com/research/volkswagen/vanagon/1983/specs">carweek.com</a> (third-party spec site)</td></tr>
+          <tr><th scope="row">Factory alternator</th><td><span class="num">14 V / 65 A (770 W max)</span>, from a 1980 sheet. The 1983 rating is not sourced; check the alternator's tag. <span class="tag tag-open">Open / to confirm</span></td><td class="src"><a href="https://www.type17.net/type17_infos/doc/t3/Vanagon_Camper_1980.pdf">1980 Vanagon Camper spec sheet</a></td></tr>
+          <tr><th scope="row">Power steering</th><td>Probably none. Owner reports: &ldquo;83.5 no PS&rdquo;; PS first appeared on the 1984 Wolfsburg and was general from 1985. Look for a pump, reservoir or lines on the van. <span class="tag tag-open">Open / to confirm</span></td><td class="src"><a href="https://www.thesamba.com/vw/forum/viewtopic.php?start=0&amp;t=338245">TheSamba</a>; <a href="https://www.vanagons.org/1983.html">vanagons.org</a></td></tr>
+          <tr><th scope="row">Cabin heat</th><td>Two heat exchangers around the exhaust, fed by the engine fan plus an auxiliary fan. No heater core.</td><td class="src"><a href="https://www.thesamba.com/vw/forum/viewtopic.php?p=10180012">TheSamba</a>; <a href="https://vancafe.com/right-side-aircooled-exhaust-heat-exchanger/">Van Cafe</a></td></tr>
+          <tr><th scope="row">Coolant plumbing</th><td>Early air-cooled vans have no front-to-rear coolant pipes and no front radiator.</td><td class="src">Subaru BOM schedule (cites Van Cafe / RMW)</td></tr>
+          <tr><th scope="row">Brake master and booster</th><td>Behind the instrument cluster or front panel. The vacuum line runs from the engine bay forward to the booster, through a check valve.</td><td class="src"><a href="https://www.thesamba.com/vw/forum/viewtopic.php?p=4759266">TheSamba</a>; <a href="https://www.thesamba.com/vw/forum/viewtopic.php?p=4465755">TheSamba</a></td></tr>
+          <tr><th scope="row">Rear CV joints</th><td><span class="num">100 mm</span>, 33-spline, 6 bolt holes (8 mm). The same joint fits 1968&ndash;79 Bus and 1980&ndash;91 Vanagon.</td><td class="src"><a href="https://www.ssaircooled.com/gkn-lobro-vw-cv-joint-100mm-left-or-right-211501331b">SS Aircooled (GKN listing)</a></td></tr>
+          <tr><th scope="row">CV bolts</th><td><span class="num">M8 &times; 48 mm</span>, 12-point head, 33 ft-lb, 6 per joint, new serrated washers every time.</td><td class="src"><a href="https://gowesty.com/products/cv-joint-bolt-6-pack">GoWesty</a></td></tr>
+          <tr><th scope="row">Rear wheel travel</th><td>The shock absorber limits travel.</td><td class="src"><a href="https://gowesty.com/blogs/article-library/vehicle-ride-height-and-drive-axles-the-whole-story">GoWesty</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- 03 Drivetrain -->
+<div class="band">
+<section id="drivetrain" aria-labelledby="dt-h">
+  <div class="sec-head">
+    <p class="sec-num">Section<span>03</span></p>
+    <div><h2 id="dt-h">Drivetrain options</h2></div>
+    <p class="intro">Leaf drive unit (current plan) vs Tesla drive unit (the look and the commercial-kit route).</p>
+  </div>
+
+  <div class="callout" role="note" aria-label="Drivetrain is being confirmed">
+    <p><span class="tag tag-open">Open / to confirm</span> <strong>Being confirmed.</strong> The planning doc's DIY path is built around a Nissan Leaf drive unit. Vincent now calls the build a Tesla swap. Until that's settled, both are laid out here and neither is final.</p>
+    <p>The Tesla-style nose in the renders is bodywork; which drive unit sits in the bay is a separate decision.</p>
+  </div>
+
+  <div class="duo">
+    <article class="du leaf" aria-labelledby="leaf-h">
+      <span class="label">Current plan in the doc</span>
+      <h3 id="leaf-h">Leaf drive unit</h3>
+      <p class="sub">Nissan EM57 motor with its own reducer and differential.</p>
+      <dl class="spec">
+        <dt>Motor</dt><dd>EM57 (2013+). Max speed <span class="num">10,500 rpm</span>, or <span class="num">11,330 rpm</span> on the e+.</dd>
+        <dt>Torque</dt><dd><span class="num">250 N&middot;m</span> (80 kW), <span class="num">320 N&middot;m</span> (110 kW ZE1) or <span class="num">340 N&middot;m</span> (160 kW e+).</dd>
+        <dt>Reducer</dt><dd><span class="num">8.1938:1</span> on 2013+ units.</dd>
+        <dt>Outputs</dt><dd>Splined tripod plunge stems (27 splines inboard, 2013&ndash;17). Not flanges.</dd>
+        <dt>Rotation</dt><dd>Forward is counterclockwise looking at the motor shaft. Reverse rpm is limited at the factory, so which way the unit faces is a real decision.</dd>
+        <dt>Weight</dt><dd>About 86 kg for the &ldquo;drive tower&rdquo; (forum) vs about 127 kg as shipped (Thunderstruck). The figures conflict; weigh the actual unit. <span class="tag tag-open">Open / to confirm</span></dd>
+      </dl>
+
+      <h4>Two ways to fit it</h4>
+      <div class="ways">
+        <div class="way">
+          <h4>(a) Direct to the axles</h4>
+          <p style="font-size:.9rem">Leaf reducer and diff, stub shafts to the VW 100 mm CVs. The 091 comes out.</p>
+          <ul>
+            <li>No clutch, no shifting, no 091 to break. Regen and reverse come from the inverter.</li>
+            <li>Needs custom or low-volume stub shafts (BRAT/Fuel2Electric make them; listed out of stock). Stub dimensions unpublished. <span class="tag tag-open">Open / to confirm</span></li>
+            <li>A mount cradle in the bay; Leaf mounts are 3-point (RH, LH, rear). Hole pattern unpublished. <span class="tag tag-open">Open / to confirm</span></li>
+            <li>Axle length must match the 091's flange face-to-face, or the shafts change.</li>
+            <li>Park pawl via the Leaf actuator; the handbrake stays primary.</li>
+            <li>No documented Vanagon/T3 Leaf direct build found; a 1979 T2 example exists.</li>
+          </ul>
+        </div>
+        <div class="way">
+          <h4>(b) Leaf motor to the 091</h4>
+          <p style="font-size:.9rem">Leaf reducer discarded; adapter plate and coupler to the 091 input.</p>
+          <ul>
+            <li>Existing VW axles, CVs and flanges stay; mount points are known.</li>
+            <li>A documented build exists: a 1980 Vanagon L Westfalia with a 2015 Leaf EM57 and the stock 091, rebuilt with Weddle parts.</li>
+            <li>Gears give low-speed torque multiplication.</li>
+            <li>The 091 sees motor torque; its input torque and speed limits aren't sourced. <span class="tag tag-open">Open / to confirm</span></li>
+            <li>Kit fit to the air-cooled gas 091 bellhousing, and clutch or no clutch, both to be confirmed. <span class="tag tag-open">Open / to confirm</span></li>
+            <li>Clutch and shifting stay; rebuild the 091 first.</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+
+    <article class="du tesla" aria-labelledby="tesla-h">
+      <span class="label">The look and the commercial-kit route</span>
+      <h3 id="tesla-h">Tesla drive unit</h3>
+      <p class="sub">The way commercial T3 conversions do it.</p>
+      <dl class="spec">
+        <dt>ESDI EV</dt><dd>Their T3 conversion kit runs a Tesla rear unit &ldquo;direct drive&rdquo;, with no gearbox. <a href="https://esdi-ev.de/elektroumbaukit/t3-elektro-umbau-kit/">esdi-ev.de</a></dd>
+        <dt>DreamEV</dt><dd>A 1982 Vanagon with a Tesla Model 3 rear unit. They skipped the VW transaxle because of &ldquo;stories of people breaking the stock transmissions&rdquo;. <a href="https://www.dreamev.com/vanagon">dreamev.com</a></dd>
+        <dt>Concept</dt><dd>Same as Leaf option (a): one unit straight to the axles, no clutch, no 091.</dd>
+        <dt>Mounts</dt><dd>EV West's universal mount is for the Tesla SDU; no Leaf drawings were found there.</dd>
+      </dl>
+      <p class="note open" style="margin-top:0"><span class="tag tag-open">Open / to confirm</span> The planning sources hold no Tesla drive unit dimensions, weights, ratios, axle interface, mounting or controller details for a DIY install in this van. Those need sourcing before it can be compared like-for-like with the Leaf.</p>
+    </article>
+  </div>
+
+  <div class="tablewrap" role="region" aria-labelledby="cmp-cap" tabindex="0">
+    <table>
+      <caption id="cmp-cap">Side by side</caption>
+      <thead><tr><th scope="col"></th><th scope="col">Leaf (a): direct</th><th scope="col">Leaf (b): through the 091</th><th scope="col">Tesla rear unit</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Gearbox</th><td>None; Leaf reducer <span class="num">8.19:1</span></td><td>Stock 091 4-speed, rebuilt</td><td>None; direct drive (ESDI, DreamEV)</td></tr>
+        <tr><th scope="row">Axles / CVs</th><td>Stub shafts to VW 100 mm CVs; length check needed</td><td>Stock VW axles, CVs and flanges</td><td><span class="tag tag-open">Open / to confirm</span></td></tr>
+        <tr><th scope="row">Precedent</th><td>None found in a T3; a 1979 T2 cut-and-welded shafts</td><td>1980 Vanagon L Westfalia, documented</td><td>Commercial T3 kit (ESDI); DreamEV 1982 Vanagon</td></tr>
+        <tr><th scope="row">Hill-start torque</th><td><span class="num">250 N&middot;m &times; 8.19 &asymp; 2,050 N&middot;m</span> at the axle before losses <span class="tag tag-calc">calc</span></td><td>Multiplied by the 091 gears</td><td><span class="tag tag-open">Open / to confirm</span></td></tr>
+        <tr><th scope="row">Biggest unknowns</th><td>Output face-to-face, stub dims, stack height, mount pattern</td><td>091 torque and rpm limits, bellhousing fit, clutch</td><td>Everything specific to this van</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="cols bench">
+    <div>
+      <h3>On the bench: Leaf EM57 numbers</h3>
+      <p>From Caliper's drive-unit file. The only measured envelope comes from one owner tape-measuring a ZE1 (2018+) EM57 for the OSSEV MX-5e build, and it's the motor alone, without the reducer.</p>
+      <dl class="spec">
+        <dt>Motor only</dt><dd><span class="num">320</span> wide &times; <span class="num">317</span> tall &times; <span class="num">310</span> deep mm. Shaft sticks out <span class="num">55 mm</span>; shaft centre to lowest point <span class="num">134 mm</span>.</dd>
+        <dt>ZE1 inverter</dt><dd>Sits on top: <span class="num">350</span> wide, <span class="num">103</span> tall plus <span class="num">13 mm</span> of locating studs, depth <span class="num">375 mm</span>; power tabs stick out <span class="num">56 mm</span>. Can be unbolted and mounted remotely.</dd>
+        <dt>Stator</dt><dd><span class="num">&oslash;200 mm</span>, 8 poles, 48 slots.</dd>
+        <dt>Full stack</dt><dd>Gearbox + motor + inverter + PDM: a forum &ldquo;approximate guesstimate&rdquo; of W <span class="num">530</span> &times; H <span class="num">820</span> &times; L <span class="num">500 mm</span>. That height has to clear the engine lid and the bay floor. Gen3 PDM about <span class="num">210 mm</span> tall without its cover.</dd>
+        <dt>Mass</dt><dd>Motor about 55 kg (remembered, not weighed) or 58 kg (Wikipedia). PDM about 20&ndash;22 kg (estimate). Whole-unit figures conflict, see above.</dd>
+        <dt>Ratios</dt><dd>RE1F61B (2013+): <span class="num">8.1938:1</span>. RE1F61A (2011&ndash;12): <span class="num">7.937:1</span>.</dd>
+        <dt>Splines</dt><dd>27 inboard, 29 outboard (2013&ndash;17 aftermarket axle data). Motor shaft is 20-spline, a rolled, proprietary spline.</dd>
+        <dt>Motor to reducer</dt><dd>6 bolts at <span class="num">60 N&middot;m</span>. Thread conflicts: M10&times;1.25 (Hemmings) vs M10&times;1.5 (Inductive Autoworks). Settle with a thread gauge. <span class="tag tag-open">Open / to confirm</span></dd>
+        <dt>Mounts</dt><dd>3-point: RH, LH and rear. The RH parts are the same 2013&ndash;2025; the LH bracket changed for 2018+.</dd>
+      </dl>
+    </div>
+    <div>
+      <h3>Not yet known</h3>
+      <p>No public source was found for these. They close with a tape, calipers and a scale on a real unit, or from CAD.</p>
+      <ul class="opens-list">
+        <li>Overall L &times; W &times; H of motor + reducer, with and without the inverter. <span class="tag tag-open">Open / to confirm</span></li>
+        <li>Mass of the reducer alone. <span class="tag tag-open">Open / to confirm</span></li>
+        <li>Mount hole locations, bolt sizes and patterns on the case. <span class="tag tag-open">Open / to confirm</span></li>
+        <li>Distance between the left and right output faces, and the fore/aft offset of the diff centre from the motor axis (clocking). <span class="tag tag-open">Open / to confirm</span></li>
+        <li>Side-gear spline major diameter and module, and whether 27 splines applies to 2018+ (ZE1). <span class="tag tag-open">Open / to confirm</span></li>
+        <li>The two inner axle stems: probably different lengths, dimensions unknown. <span class="tag tag-open">Open / to confirm</span></li>
+        <li>BRAT stub shaft length and flange seat position. <span class="tag tag-open">Open / to confirm</span></li>
+        <li>Whether BRAT's &ldquo;about the same spacing as the original VW transaxle&rdquo; holds for a Vanagon. That claim came from a Golf/Cabriolet install. <span class="tag tag-open">Open / to confirm</span></li>
+        <li>OEM axle seal size; only BRAT's replacement size (<span class="num">36 &times; 56 &times; 10 mm</span>) is known. <span class="tag tag-open">Open / to confirm</span></li>
+        <li>Whether direction can be swapped in software at full rpm, which decides how the unit is clocked. <span class="tag tag-open">Open / to confirm</span></li>
+      </ul>
+      <h4>The decision rests on</h4>
+      <ol>
+        <li>Leaf output face-to-face.</li>
+        <li>Stack height vs bay height.</li>
+        <li>Whether BRAT stubs or a custom equivalent can be had.</li>
+        <li>The 091's condition.</li>
+      </ol>
+      <p>Plus the measuring sheet below. Option (b) has the closest documented precedent; option (a) is simpler to drive and is how commercial T3 kits do it, but with Tesla units.</p>
+    </div>
+  </div>
+</section>
+</div>
+
+<!-- 04 Systems -->
+<section id="systems" aria-labelledby="sys-h">
+  <div class="sec-head">
+    <p class="sec-num">Section<span>04</span></p>
+    <div><h2 id="sys-h">Systems the EV needs</h2></div>
+    <p class="intro">Take the engine out of an air-cooled T3 and several things go with it: brake vacuum, cabin heat, the alternator. Six systems replace them.</p>
+  </div>
+
+  <div class="systems">
+    <article class="sys" aria-labelledby="s-brakes">
+      <span class="k">4.1 &middot; no engine vacuum</span>
+      <h3 id="s-brakes">Brakes</h3>
+      <p class="plan">Keep the stock booster and master; add an electric vacuum pump.</p>
+      <ul>
+        <li>Use a stand-alone-rated pump (Hella UP5.0, UP30 or UP5X class), not the UP28, as the only vacuum source. Hella calls the UP28 a &ldquo;support&rdquo; pump.</li>
+        <li>Mount it near the front, close to the booster; the long rear-to-front vacuum line goes away.</li>
+        <li>Key-on 12 V through a dedicated fuse and a relay driven by the vacuum switch.</li>
+        <li>Failsafe: reservoir and check valve give several assisted stops with the pump dead; add a low-vacuum warning light. Brakes still work unassisted, with a heavy pedal; test that on a closed lot.</li>
+      </ul>
+      <p class="flow" aria-label="Vacuum layout: pump, then check valve with arrow toward booster, then reservoir of 0.5 litres or more, then booster">pump &rarr; check valve &rarr; reservoir 0.5&nbsp;L+ &rarr; booster</p>
+      <p style="font-size:.9rem">Later upgrade: a Bosch iBooster (Tesla/Honda donors), silent and with no vacuum plumbing, but fab-heavy at the front.</p>
+      <ul class="opens">
+        <li>Pump model and fuse size <span class="tag tag-open">Open / to confirm</span></li>
+        <li>Mounting space behind the front panel <span class="tag tag-open">Open / to confirm</span></li>
+        <li>iBooster bracket and pedal feel for this van <span class="tag tag-open">Open / to confirm</span></li>
+      </ul>
+    </article>
+
+    <article class="sys" aria-labelledby="s-heat">
+      <span class="k">4.2 &middot; a safety item in NM winters</span>
+      <h3 id="s-heat">Heat and defrost</h3>
+      <p class="plan">One or two PTC air units at the front for defrost and primary heat.</p>
+      <ul>
+        <li>The air-cooled T3 has no heater core. Heat came from the exhaust heat exchangers, so with the engine gone there is no heat and no defrost air.</li>
+        <li>Closest drop-in: a 400 V PTC brick with fan and 60 mm outlet, 1,100 W each, made for air-cooled VW/Porsche ducting (220&ndash;400 V packs only). Two give 2,200 W.</li>
+        <li>Optional range saver: a diesel air heater (Webasto Air Top 2000 STC, 0.9&ndash;2.0 kW) that uses no pack energy. Good for camping and morning warm-up.</li>
+        <li>Fallback: an HV coolant heater with an added heater core and blower box. Most work, most heat.</li>
+      </ul>
+      <ul class="opens">
+        <li>Do the 60 mm outlets fit Vanagon ducts? <span class="tag tag-open">Open / to confirm</span></li>
+        <li>Early '83 front blower and duct layout; trace the ducts <span class="tag tag-open">Open / to confirm</span></li>
+      </ul>
+    </article>
+
+    <article class="sys" aria-labelledby="s-12v">
+      <span class="k">4.3 &middot; replaces the alternator</span>
+      <h3 id="s-12v">12 V DC-DC</h3>
+      <p class="plan">A DC-DC converter holds the 12 V bus at about 13.8&ndash;14.4 V. Keep a 12 V aux battery.</p>
+      <ul>
+        <li>Leaf PDM (comes with the donor): charger plus DC-DC; the 12 V side &ldquo;can be loaded to 1.5 kW max&rdquo;. Liquid cooled; it shuts off in minutes if run dry.</li>
+        <li>Or stand-alone: Thunderstruck TSM-HV DCDC, 280&ndash;450 V in, 13.8 V out, 1,500 W continuous.</li>
+        <li>Worst case, everything on: about 45&ndash;90 A (600&ndash;1,200 W) <span class="tag tag-calc">calc</span>. The stock alternator was 65 A / 770 W (1980 sheet).</li>
+        <li>The aux battery runs the VCU, BMS and contactors at wake-up and buffers pump and fan surges.</li>
+      </ul>
+      <p class="flow" aria-label="Enable logic: key-on or charge-wake, then the VCU closes HV contactors after precharge, then the VCU enables the DC-DC, then the DC-DC holds the 12 volt bus">key-on &rarr; precharge &rarr; HV contactors &rarr; DC-DC enable &rarr; 12 V bus</p>
+      <ul class="opens">
+        <li>PDM continuous 12 V rating; treat 1.5 kW as a peak <span class="tag tag-open">Open / to confirm</span></li>
+        <li>DC-DC output fuse rating <span class="tag tag-open">Open / to confirm</span></li>
+        <li>Does the DC-DC run while charging? (a decision)</li>
+      </ul>
+    </article>
+
+    <article class="sys" aria-labelledby="s-cool">
+      <span class="k">4.4 &middot; the van has no radiator</span>
+      <h3 id="s-cool">Coolant loop</h3>
+      <p class="plan">Inverter, motor and PDM/charger need coolant; a rear-mounted radiator may avoid pipes to the nose.</p>
+      <ul>
+        <li>Early air-cooled vans have no radiator and no front-to-rear pipes.</li>
+        <li>The heat load is small next to an engine, so a radiator and fan in or near the bay may do.</li>
+        <li>The Leaf pump is 12 V, 2-pin, with about an 8 s start delay. The PDM has a marked inlet and needs flow.</li>
+      </ul>
+      <p class="flow" aria-label="Coolant loop: pump, PDM, inverter, motor, radiator, expansion tank">pump &rarr; PDM &rarr; inverter &rarr; motor &rarr; radiator &rarr; expansion tank</p>
+      <ul class="opens">
+        <li>Radiator size and coolant temperature limits; no Nissan figure sourced <span class="tag tag-open">Open / to confirm</span></li>
+        <li>Leaf OEM pump current draw <span class="tag tag-open">Open / to confirm</span></li>
+      </ul>
+    </article>
+
+    <article class="sys" aria-labelledby="s-batt">
+      <span class="k">4.5 &middot; location, weight, mounting</span>
+      <h3 id="s-batt">HV battery</h3>
+      <p class="plan">Under the floor between the rails, or inside the cabin in the OEM case.</p>
+      <ul>
+        <li>A Leaf 24 kWh (2013) pack is about 294 kg, about 1,570 &times; 1,188 &times; 265 mm, 360 V nominal (secondary source; verify).</li>
+        <li>Under-floor keeps the cabin and lowers the centre of gravity; ground clearance and the fuel-tank area need measuring. In-cabin is simplest but eats floor space.</li>
+        <li>Precedents: the 1980 Vanagon kept its pack in the OEM case on the floor inside; DreamEV built an aluminium tray under the van.</li>
+        <li>The Leaf pack has internal contactors. Keep the Leaf service disconnect.</li>
+      </ul>
+      <ul class="opens">
+        <li>Pack generation: 24, 30 or 40 kWh <span class="tag tag-open">Open / to confirm</span></li>
+        <li>Net weight change and GVWR margin, until parts are weighed <span class="tag tag-open">Open / to confirm</span></li>
+        <li>HVIL wiring and fuse ratings <span class="tag tag-open">Open / to confirm</span></li>
+      </ul>
+    </article>
+
+    <article class="sys" aria-labelledby="s-charge">
+      <span class="k">4.6 &middot; J1772 AC</span>
+      <h3 id="s-charge">Charging</h3>
+      <p class="plan">J1772 (Type 1) AC through the Leaf PDM's on-board charger.</p>
+      <ul>
+        <li>The PDM includes a 3.3 or 6.6 kW charger and handles CP/PP from the real Leaf inlet.</li>
+        <li>&ldquo;You cannot wire in AC directly.&rdquo;</li>
+        <li>The PDM wakes on the J1772 plug.</li>
+      </ul>
+      <ul class="opens">
+        <li>DC fast charge is out of scope for now; the Leaf DC inlet type isn't sourced <span class="tag tag-open">Open / to confirm</span></li>
+      </ul>
+    </article>
+  </div>
+
+  <h3 class="subsec">Also on the list</h3>
+  <ul class="also">
+    <li><b>VCU.</b> The Leaf inverter needs a VCU over CAN; Volt owns the firmware. Hookups: throttle pedal, brake switch, key/start, direction selector, contactor and precharge drives, pump and fan relays, DC-DC enable, vacuum-pump fault input, gauge outputs.</li>
+    <li><b>Contactors and precharge.</b> Main +/&minus; and precharge; VCU sequencing is ZombieVerter-supported.</li>
+    <li><b>HVIL.</b> How the Leaf interlock is wired in a conversion isn't known; ask Volt. At minimum: covers on all HV terminals, orange cable, service disconnect reachable. <span class="tag tag-open">Open / to confirm</span></li>
+    <li><b>Gauges.</b> Speedo (cable from the left front wheel, believed unaffected; confirm), SOC, motor/inverter temperature, 12 V voltage, vacuum warning.</li>
+    <li><b>Park lock.</b> The stock rear-drum cable handbrake stays primary.</li>
+    <li><b>Power steering.</b> Likely none on an early '83. If found, it must be deleted or replaced with an electric pump. <span class="tag tag-open">Open / to confirm</span></li>
+    <li><b>A/C.</b> Delete if fitted (the compressor was belt driven).</li>
+    <li><b>Fuel system.</b> Remove the tank, or keep a small one only for a diesel heater.</li>
+    <li><b>Pedal.</b> No throttle cable: an electronic pedal to the VCU. Type to be chosen by Volt. <span class="tag tag-open">Open / to confirm</span></li>
+  </ul>
+</section>
+
+<!-- 05 Measuring -->
+<div class="band">
+<section id="measure" class="sheet" aria-labelledby="m-h">
+  <div class="sec-head">
+    <p class="sec-num">Section<span>05</span></p>
+    <div><h2 id="m-h">Measuring phase</h2></div>
+    <p class="intro">Nothing gets designed until the van is measured. This is the sheet, merged with Caliper's open items. It is laid out to print.</p>
+  </div>
+  <p class="sheet-head"><span>All numbers in mm unless noted</span><span>Photograph each one with the tape in frame</span><span>L = driver side &middot; R = passenger side</span></p>
+
+  <div class="cols">
+    <div>
+      <h3>Tools</h3>
+      <ul class="checks">
+        <li><label><input type="checkbox"> Level concrete floor (check with a long level or laser; write any slope down)</label></li>
+        <li><label><input type="checkbox"> Steel tape, 5 m, metric</label></li>
+        <li><label><input type="checkbox"> Digital calipers, 150 mm or more</label></li>
+        <li><label><input type="checkbox"> Digital angle finder or inclinometer (zero it on the floor)</label></li>
+        <li><label><input type="checkbox"> Floor jack, plus 4 jack stands rated for the van (curb weight 3,270 lb)</label></li>
+        <li><label><input type="checkbox"> Wheel chocks</label></li>
+        <li><label><input type="checkbox"> Plumb bob and string</label></li>
+        <li><label><input type="checkbox"> Chalk or masking tape and a marker for floor marks</label></li>
+        <li><label><input type="checkbox"> Straightedge or level, 1 m or more</label></li>
+        <li><label><input type="checkbox"> Camera or phone</label></li>
+        <li><label><input type="checkbox"> Thread-pitch gauge (metric)</label></li>
+        <li><label><input type="checkbox"> M8 12-point triple-square bit (only if you pull a CV bolt)</label></li>
+        <li><label><input type="checkbox"> Notepad or this sheet, pencil</label></li>
+        <li><label><input type="checkbox"> Gloves and safety glasses</label></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Setup and safety</h3>
+      <ol class="steps">
+        <li>Park on the level floor. Tyres at normal pressure. Record the load (fuel level, Westy gear in or out). Chock the front wheels. Trans in neutral; handbrake off only when the rear is on stands.</li>
+        <li><strong>Ride height</strong>, on its wheels, bounced and settled: wheel-arch lip height above the floor at the axle centreline, L and R; and axle-bore centre to arch lip.</li>
+        <li><strong>Full droop:</strong> jack under the body jacking points or frame (not the trailing arm), set stands under the frame and let the rear wheels hang. The shock is the travel limit, so droop = shock fully extended.<span class="warn">Never work under the van on the jack alone.</span></li>
+        <li><strong>Full bump:</strong> on stands, raise the trailing arm with the jack under the spring seat area until the bump stop just touches. Stop when the stand starts to unload. If the van lifts off the stands first, don't force it: record the bump-stop gap at ride height and calculate bump, or follow the shop manual's procedure. <span class="tag tag-open">Open / to confirm</span><span class="warn">Spring removal stores energy. Only with the manual's procedure and proper tools.</span></li>
+        <li>Wheels can stay on, but taking one off gives better access to the outer CV flange. Re-torque the lugs before lowering.</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="subsec">
+    <div class="tablewrap" role="region" aria-labelledby="a-cap" tabindex="0">
+      <table>
+        <caption id="a-cap">Axle and CV, L and R at each position</caption>
+        <thead><tr><th scope="col">#</th><th scope="col">Measurement</th><th scope="col">Ride</th><th scope="col">Droop</th><th scope="col">Bump</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">A1</th><td class="what"><strong>Outer (wheel-side) CV flange face to face, L to R</strong>, across the van (string or two plumb bobs to floor marks, then tape)</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+          <tr><th scope="row">A2</th><td class="what">Inner CV flange face to face, L to R (091 output flange faces)</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+          <tr><th scope="row">A3</th><td class="what">Axle shaft angle vs horizontal, L / R</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+          <tr><th scope="row">A4</th><td class="what">Axle sweep fore/aft (outer flange ahead of or behind the inner?), L / R</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+          <tr><th scope="row">A5</th><td class="what">Outer flange centre height above the floor, L / R</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+          <tr><th scope="row">A6</th><td class="what">Inner flange centre height above the floor, L / R</td><td class="blank"></td><td class="na">&mdash;</td><td class="na">&mdash;</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">A forum guideline puts total CV angle under about 22.5&deg; for normal use (combined angle = vertical + &frac12; sweep); Caliper should confirm. A1 minus 2&times; the axle length gives the target inner face-to-face for option (a).</p>
+  </div>
+
+  <div class="cols subsec">
+    <div>
+      <h3>CV flange details</h3>
+      <ul class="checks">
+        <li><label><input type="checkbox"> Inner CV bolt circle diameter. Expected 100 mm; confirm.</label></li>
+        <li><label><input type="checkbox"> CV bolt size and length. Expected M8 &times; 48; confirm.</label></li>
+        <li><label><input type="checkbox"> Flange pilot or recess diameter</label></li>
+        <li><label><input type="checkbox"> Axle length, CV face to CV face, L / R</label></li>
+        <li><label><input type="checkbox"> Note any 6-point replacement bolts, missing serrated washers, torn boots</label></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Also record</h3>
+      <ul class="checks">
+        <li><label><input type="checkbox"> Tyre size and measured loaded radius, L / R (for the gearing calc)</label></li>
+        <li><label><input type="checkbox"> Alternator tag (A rating) and headlight bulb type</label></li>
+        <li><label><input type="checkbox"> Power steering present? Y / N</label></li>
+        <li><label><input type="checkbox"> A/C present? Y / N</label></li>
+        <li><label><input type="checkbox"> Brake booster diameter and location (photo)</label></li>
+        <li><label><input type="checkbox"> Heater duct path bay to front (photo); front blower? Y / N</label></li>
+        <li><label><input type="checkbox"> Fuel tank position and size</label></li>
+        <li><label><input type="checkbox"> 091 code letters and bellhousing type (gas vs diesel), photo of the tag</label></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="subsec">
+    <div class="tablewrap" role="region" aria-labelledby="t-cap" tabindex="0">
+      <table>
+        <caption id="t-cap">Trailing arms</caption>
+        <thead><tr><th scope="col">#</th><th scope="col">Measurement</th><th scope="col">L</th><th scope="col">R</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">T1</th><td class="what">Inner pivot bolt centre height above the floor (ride height)</td><td class="blank"></td><td class="blank"></td></tr>
+          <tr><th scope="row">T2</th><td class="what">Outer pivot bolt centre height above the floor</td><td class="blank"></td><td class="blank"></td></tr>
+          <tr><th scope="row">T3</th><td class="what">Inner pivot bolt centre: fore/aft from the rear axle centreline</td><td class="blank"></td><td class="blank"></td></tr>
+          <tr><th scope="row">T4</th><td class="what">Outer pivot bolt centre: fore/aft from the rear axle centreline</td><td class="blank"></td><td class="blank"></td></tr>
+          <tr><th scope="row">T5</th><td class="what">Inner and outer pivot centres: distance from the van centreline</td><td class="blank"></td><td class="blank"></td></tr>
+          <tr><th scope="row">T6</th><td class="what">Pivot bolt diameter</td><td class="blank"></td><td class="blank"></td></tr>
+          <tr><th scope="row">T7</th><td class="what">Spring seat centre height (ride); shock lower mount height (ride / droop / bump)</td><td class="blank"></td><td class="blank"></td></tr>
+          <tr><th scope="row">T8</th><td class="what">Bump-stop gap at ride height</td><td class="blank"></td><td class="blank"></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Mark the rear axle centreline on the floor (plumb from each hub centre, chalk line between) and the van centreline. Measure everything from those two lines and the floor.</p>
+  </div>
+
+  <div class="cols subsec">
+    <div class="tablewrap" role="region" aria-labelledby="b-cap" tabindex="0">
+      <table>
+        <caption id="b-cap">Bay box (engine out preferred)</caption>
+        <thead><tr><th scope="col">#</th><th scope="col">Measurement</th><th scope="col">Value</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">B1</th><td class="what">Bay floor (or lowest frame/crossmember) to engine-lid opening</td><td class="blank"></td></tr>
+          <tr><th scope="row">B2</th><td class="what">Shop floor to lid opening; floor to lowest bay structure</td><td class="blank"></td></tr>
+          <tr><th scope="row">B3</th><td class="what">Firewall to rear valance, at floor level and lid level</td><td class="blank"></td></tr>
+          <tr><th scope="row">B4</th><td class="what">Narrowest width between the frame rails (and where)</td><td class="blank"></td></tr>
+          <tr><th scope="row">B5</th><td class="what">Width at lid opening</td><td class="blank"></td></tr>
+          <tr><th scope="row">B6</th><td class="what">Lid opening size, L &times; W</td><td class="blank"></td></tr>
+          <tr><th scope="row">B7</th><td class="what">Intrusions (tank, heater ducts, shift rod, brake/fuel lines): position and size</td><td class="blank"></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tablewrap" role="region" aria-labelledby="mt-cap" tabindex="0">
+      <table>
+        <caption id="mt-cap">Existing mounts</caption>
+        <thead><tr><th scope="col">#</th><th scope="col">Item</th><th scope="col">Fore/aft</th><th scope="col">Height</th><th scope="col">Lateral</th><th scope="col">Bolt</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">M1</th><td>Engine rear mount(s) / crossmember</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+          <tr><th scope="row">M2</th><td>Transaxle front (nose) mount</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+          <tr><th scope="row">M3</th><td>Transaxle side mounts (if any)</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+          <tr><th scope="row">M4</th><td>091 input shaft centre (bellhousing face)</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+          <tr><th scope="row">M5</th><td>Shift rod path and rear coupler</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+</div>
+
+<!-- 06 Sequence -->
+<section id="sequence" aria-labelledby="seq-h">
+  <div class="sec-head">
+    <p class="sec-num">Section<span>06</span></p>
+    <div><h2 id="seq-h">Build sequence</h2></div>
+    <p class="intro">In order. Each step waits on the one before it.</p>
+  </div>
+  <ol class="seq">
+    <li><span class="n">01</span><h3>Measure</h3><p class="who">Kailee, the mechanic</p><p>Fill in the measuring sheet with photos. Engine out is better if it's coming out anyway.</p></li>
+    <li><span class="n">02</span><h3>Caliper verifies</h3><p class="who">Caliper, specs</p><p>Check the measurements against sources, close the CV-angle check, and compute target axle lengths for options (a) and (b).</p></li>
+    <li><span class="n">03</span><h3>Clay models</h3><p class="who">Clay, CAD</p><p>Bay, arms and axles from the measurements, with the drive unit envelope dropped in. Check lid clearance, axle angles and mount locations.</p></li>
+    <li><span class="n">04</span><h3>Pick the drivetrain</h3><p class="who">From the model</p><p>Decided from the model, the 091's condition and stub availability. Leaf vs Tesla is still being confirmed.</p></li>
+    <li><span class="n">05</span><h3>Volt does controls</h3><p class="who">Volt, embedded</p><p>Define the VCU inputs and outputs. Then choose pack location, vacuum pump and heater.</p></li>
+    <li><span class="n">06</span><h3>Priced parts list</h3><p class="who">Last</p><p>A sourced, priced parts list is written at this stage. It isn't on this site, and nothing is bought without approval.</p></li>
+  </ol>
+</section>
+
+<!-- 07 Open questions -->
+<div class="band">
+<section id="open" aria-labelledby="open-h">
+  <div class="sec-head">
+    <p class="sec-num">Section<span>07</span></p>
+    <div><h2 id="open-h">Open questions</h2></div>
+    <p class="intro">What has to be answered before parts are chosen. Most close on the measuring day; some need Volt.</p>
+  </div>
+  <ol class="questions">
+    <li class="lead"><div><p>Leaf drive unit or Tesla drive unit?</p><span class="who">Being confirmed with Vincent.</span></div></li>
+    <li><div><p>Leaf output face-to-face, with and without BRAT-type stubs; the stub dimensions.</p><span class="who">Caliper</span></div></li>
+    <li><div><p>Full stack height (motor + reducer + inverter &plusmn; PDM) vs bay height B1. If too tall, move the inverter or PDM remotely, as done on T2 builds.</p><span class="who">Measure, then Clay</span></div></li>
+    <li><div><p>Will the BRAT Leaf-motor kit bolt to an air-cooled gas 091 bellhousing? Clutch or no clutch?</p><span class="who">Vendor</span></div></li>
+    <li><div><p>091 condition and input torque and rpm limits. Rebuild before EV torque if option (b).</p><span class="who">Mechanic</span></div></li>
+    <li><div><p>Drive unit clocking and the reverse-rpm limit: can direction be swapped in software at full rpm?</p><span class="who">Volt</span></div></li>
+    <li><div><p>Pack: which generation (24, 30 or 40 kWh), in-cabin OEM case or under-floor tray? GVWR margin?</p><span class="who">After measuring</span></div></li>
+    <li><div><p>Brakes: which stand-alone vacuum pump, and is there mounting space behind the front panel? Or iBooster?</p><span class="who">Mechanic</span></div></li>
+    <li><div><p>Heat and defrost: can Vanagon ducts take the 60 mm PTC outlets? Is there a front blower on an early '83?</p><span class="who">Trace the ducts</span></div></li>
+    <li><div><p>The Leaf PDM's continuous DC-DC rating, and whether a separate DC-DC is needed.</p><span class="who">Research</span></div></li>
+    <li><div><p>Coolant temperature limits and radiator size for the Leaf inverter, motor and PDM.</p><span class="who">No Nissan figure sourced</span></div></li>
+    <li><div><p>HVIL and fusing scheme.</p><span class="who">Volt and the mechanic</span></div></li>
+    <li><div><p>Is power steering absent on FunAgain?</p><span class="who">Confirm on the van</span></div></li>
+  </ol>
+</section>
+</div>
+
+</main>
+
+<footer>
+  <div class="inner">
+    <div>
+      <h2>Fun, again.</h2>
+      <p>Information only. Nothing on this page is for sale, and there are no prices or ordering here.</p>
+    </div>
+    <div>
+      <p>Compiled from the FunAgain EV planning doc (2026-10-03 PT) and Caliper's Leaf drive unit dimensions (2026-10-02 PT). Every figure traces to a source in those files; anything they couldn't source is marked <span class="tag tag-open" style="background:none;color:#f0b8ae">Open / to confirm</span>.</p>
+      <p>Images are concept renders of the planned look, not photos of the finished van. Type: Fraunces and IBM Plex, served from this site (SIL Open Font License).</p>
+      <p><a href="#top">Back to top</a></p>
+    </div>
+  </div>
+</footer>
+<script src="js/nav.js" defer></script>
+</body>
+</html>
